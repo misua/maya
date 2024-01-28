@@ -5,10 +5,9 @@ This is a repo of the ff Missions:
 
 - Mission1 folder - all tf infrastructure
 
-```bash
-tested to deploy all needed infrastructure
-my-key-pair.pem included,it has no use to anyone
-```
+`tested to deploy all needed infrastructure`
+`my-key-pair.pem included,it has no use to anyone`
+
 
 
 - Mission2 folder - Kubernetes resource in 1 unified.yaml file
@@ -23,9 +22,13 @@ my-key-pair.pem included,it has no use to anyone
 
 
 ### Build and Tag the Docker image
-``docker build -t localhost/simple-webapp:latest .``
+```bash 
+docker build -t localhost/simple-webapp:latest .
+```
 
-`docker tag simple-webapp:latest <aws_account_id>.dkr.ecr.<region>.amazonaws.com/simple-webapp:latest`
+```bash 
+docker tag simple-webapp:latest <aws_account_id>.dkr.ecr.<region>.amazonaws.com/simple-webapp:latest
+```
 
 ### Push the Docker image to ECR
 `docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/simple-webapp:latest`
