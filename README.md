@@ -5,7 +5,10 @@ This is a repo of the ff Missions:
 
 - Mission1 folder - all tf infrastructure
 
-`tested to deploy all needed infrastructure`
+```bash
+tested to deploy all needed infrastructure
+my-key-pair.pem included,it has no use to anyone
+```
 
 
 - Mission2 folder - Kubernetes resource in 1 unified.yaml file
