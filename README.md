@@ -46,17 +46,4 @@ This is a repo of the ff Missions:
 ![Static Badge](https://img.shields.io/badge/Charles-Pogi-blue)
 ## Installation
 
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Demo
-
-Insert gif or link to demo
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
