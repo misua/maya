@@ -1,11 +1,12 @@
 
 # Project Maya
 
-This is a repo of the ff Missions:
+This is a repo of the following Maya Missions:
 
 - Mission1 folder - all tf infrastructure
 
-`tested to deploy all needed infrastructure`
+`fully tested to deploy in aws`
+
 `my-key-pair.pem included,it has no use to anyone`
 
 
@@ -31,7 +32,9 @@ docker tag simple-webapp:latest <aws_account_id>.dkr.ecr.<region>.amazonaws.com/
 ```
 
 ### Push the Docker image to ECR
-`docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/simple-webapp:latest`
+```bash
+docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/simple-webapp:latest
+```
 
 ---
 
