@@ -3,20 +3,20 @@
 
 This is a repo of the ff Missions:
 
-- Mission1 folder - all tf infrastructure
+#### Mission1 folder - all tf infrastructure
 
 `tested to deploy all needed infrastructure`
 
 
-- Mission2 folder - Kubernetes resource in 1 unified.yaml file
+#### Mission2 folder - Kubernetes resource in 1 unified.yaml file
 
 `tested to create all resource in local Kubernetes lab`
 
 
-- Mission 3 - Published code in GH (https://github.com/misua/maya)
+#### Mission 3 - Published code in GH (https://github.com/misua/maya)
 
 
-- Mission 4 - not completely done and tested as it was tagged as `(optional)`
+#### Mission 4 - not completely done and tested as it was tagged as `(optional)`
 
 
 ### Build and Tag the Docker image
@@ -44,6 +44,6 @@ This is a repo of the ff Missions:
 
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Charles-Pogi-blue)
-## Installation
+
 
 
