@@ -1,0 +1,1 @@
+kubectl get nodes -o jsonpath='{range .items[*]}{.status.nodeInfo.osImage}{"\n"}{end}' > nodes_os.txt
