@@ -1,6 +1,8 @@
 resource "aws_s3_bucket" "lb_logs" {
   bucket = "tf-my-lb-logs" 
 
+  force_destroy = true 
+
   
   
   tags = {
