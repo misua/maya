@@ -42,8 +42,8 @@ TODO:
  - load balancer still lacking permissions to write to created s3 bucket for storing load balancer access logs.( trying to find out why)
 
 
-<img src="https://github.com/misua/maya/aws.png?raw=true">
-<img src="https://github.com/misua/maya/s.png?raw=true">
+<img src="https://github.com/misua/maya/blob/main/aws.png?raw=true">
+<img src="https://github.com/misua/maya/blob/main/s.png?raw=true">
 
 ## Authors
 
