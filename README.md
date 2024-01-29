@@ -40,7 +40,9 @@ docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/simple-webapp:latest
 
 TODO:
  - load balancer still lacking permissions to write to created s3 bucket for storing load balancer access logs.( trying to find out why)
+ - Under Mission_1 the lambda_cloudflare_event folder is supposed to be triggering the scale in/out of the the ec2 spot fleet & rds, but i have not tested them.
 
+---
 
 <img src="https://github.com/misua/maya/blob/main/aws.png?raw=true">
 <img src="https://github.com/misua/maya/blob/main/s.png?raw=true">
