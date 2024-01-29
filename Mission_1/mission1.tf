@@ -48,6 +48,15 @@ resource "aws_lb" "my_lb" {
   load_balancer_type = "application"
   subnets            = [aws_subnet.subnet1.id, aws_subnet.subnet2.id]
   security_groups    = [aws_security_group.lb_sg.id]
+  
+
+ 
+
+  # access_logs {
+  #   bucket  = aws_s3_bucket.lb_logs.bucket
+  #   prefix  = "lb_logs"
+  #   enabled = true
+  # }
 
   tags = {
     Name = "TF_lb"

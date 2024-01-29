@@ -25,6 +25,15 @@ resource "aws_main_route_table_association" "my_route_table_association" {
   route_table_id = aws_route_table.my_route_table.id
 }
 
+resource "aws_route_table_association" "external_subnet1_association" {
+  subnet_id      = aws_subnet.subnet1.id
+  route_table_id = aws_route_table.my_route_table.id
+}
+
+resource "aws_route_table_association" "external_subnet2_association" {
+  subnet_id      = aws_subnet.subnet2.id
+  route_table_id = aws_route_table.my_route_table.id
+}
 #--------------
 
 resource "aws_eip" "nat_eip" {
@@ -56,12 +65,12 @@ resource "aws_route_table" "private_route_table" {
   }
 }
 
-resource "aws_route_table_association" "private_subnet1_association" {
-  subnet_id      = aws_subnet.subnet1.id
-  route_table_id = aws_route_table.private_route_table.id
-}
+# resource "aws_route_table_association" "private_subnet1_association" {
+#   subnet_id      = aws_subnet.subnet1.id
+#   route_table_id = aws_route_table.private_route_table.id
+# }
 
-resource "aws_route_table_association" "private_subnet2_association" {
-  subnet_id      = aws_subnet.subnet2.id
-  route_table_id = aws_route_table.private_route_table.id
-}
+# resource "aws_route_table_association" "private_subnet2_association" {
+#   subnet_id      = aws_subnet.subnet2.id
+#   route_table_id = aws_route_table.private_route_table.id
+# }
